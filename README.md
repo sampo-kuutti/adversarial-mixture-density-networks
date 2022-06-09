@@ -1,9 +1,12 @@
 # Adversarial Mixture Density Networks
 
 This is the repo for paper Adversarial Mixture Density Networks: Learning to Drive Safely from Collision Data. 
+
 Trains a mixture density networks on two datasets, 
-one with positive examples (demonstrated safe driving), training an action distribution for both sets.
-and one with negative examples (trajectories leading to collision). The model maximises likelihood of actions of closer to
+one with positive examples (demonstrated safe driving)
+and one with negative examples (trajectories leading to collision), training an action distribution for both sets. 
+
+The model maximises likelihood of actions of closer to
 the safe action distribution and minimises likelihood of actions closer to unsafe action distribution, leading to safer driving policies.
 Trained and tested in a vehicle following setting.
 
